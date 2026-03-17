@@ -9,3 +9,9 @@ board = [
     [0, 0, 0, 4, 1, 9, 0, 0, 5],
     [0, 0, 0, 0, 8, 0, 0, 7, 9]
 ]
+
+def print_board(board):
+    for row in board:
+        print(row)
+    print()
+    print("-" * 30)
